@@ -1,0 +1,34 @@
+# Python cache/env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Training/model artifacts
+models/
+student_models/
+best_model/
+results/
+logs/
+checkpoints/
+*.ckpt
+*.pt
+*.bin
+
+# Generated data/artifacts
+*.csv
+*.xlsx
+*.pkl
+*.npy
+*.npz
+
+# Notebook/cache
+.ipynb_checkpoints/
+.cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
